@@ -6,7 +6,7 @@ def pow(x):
 
 
 def some_gen(begin, end, func):
-    for num in range(end):
+    for _ in range(end):
         yield begin
         begin = func(begin)
 
